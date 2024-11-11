@@ -1,0 +1,175 @@
+/* CSS DOCUMENT */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    color: white;
+    background-color: black;
+
+}
+
+header{
+    font-size: 10rem;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scaleX(1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: darkgoldenrod;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: gold;
+    border-bottom: 3px solid gold;
+}
+
+.ion-icon{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: gold;
+    border-radius: 4rem;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.25rem solid gold;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: gold;
+    color-scheme: white;
+}
+
+.social-icon a:hover{
+    color: gold;
+    transform: scale(1.3) translateY(-5px);
+    background-color: goldenrod;
+    box-shadow: 0 0 25px gold;
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9%;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: gold;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    bottom: 2;
+    left: 5px;
+    
+}
+
+.image img{
+    position: relative;
+    height: 35vw;
+    width: 32vw;
+    bottom: 10%;
+    transform: translateX(10%);
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid gold;
+    cursor: pointer;
+    transition: 1s bottom, 1s left;
+    size-adjust: 20%;
+}
+
+.home-image image:hover{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.button{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 2rem;
+    color: blanchedalmond;
+}
