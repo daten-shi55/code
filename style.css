@@ -181,7 +181,7 @@ span{
 }
 
 .typing-text span::before{
-    content: 'ICT Strand';
+    content: 'Mobile Legends Player';
     color: gold;
     animation: words 20s infinite;
 }
