@@ -181,7 +181,7 @@ span{
 }
 
 .typing-text span::before{
-    content: 'Smart Student Anime Lover';
+    content: 'ICT Strand';
     color: gold;
     animation: words 20s infinite;
 }
