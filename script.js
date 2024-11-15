@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     audio.volume = 0.7; 
 
  document.addEventListener('click', function () {
-        if (!audio.play) {
-            audio.play();
+        if (!audio.paused) {
+            audio.paused();
        }
    }); 
  });        
