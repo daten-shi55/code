@@ -230,7 +230,7 @@ span{
      width: calc(100% + 8px);
  }
 }
-.home-content p{
+p{
     font-size: 2rem;
     color: blanchedalmond;
     font-weight: 500;
